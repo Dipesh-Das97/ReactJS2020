@@ -1,9 +1,10 @@
 //import React from 'react';
 import ReactDOM from 'react-dom'
 //import Like from './states/like'
-import Parent from './components/parentChild'
+//import Parent from './components/parentChild'
 //import App1 from './components/functionComp'
 //import App2 from './components/classComp'
+import Methods from './lifecycle/methods'
 
 //1. Passing values using props to the children
 /*const companyName = {
@@ -40,4 +41,4 @@ class ClassContainer extends React.Component{
   }
 }
 */
-ReactDOM.render(<Parent />, document.getElementById('root'));
+ReactDOM.render(<Methods fav={"yellow"}/>, document.getElementById('root'));
