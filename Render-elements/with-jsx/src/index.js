@@ -41,8 +41,4 @@ class ClassContainer extends React.Component{
   }
 }
 */
-<<<<<<< HEAD
 ReactDOM.render(<Methods fav={"yellow"}/>, document.getElementById('root'));
-=======
-ReactDOM.render(<Methods fav={"yellow"}/>, document.getElementById('root'));
->>>>>>> 51cb3829a7ad619ad697f377cc290186d13f200e
